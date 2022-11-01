@@ -1,11 +1,13 @@
 # exa
-apt install exa 
+sudo apt update
+sudo apt install exa 
 
 # starship
-curl -sS https://starship.rs/install.sh | sh
+curl -sS https://starship.rs/install.sh > install.sh 
+sh ./install.sh --yes
 
 # configure zsh
 cp .zshrc ~.zshrc
-chsh -s $(which zsh)
+sudo chsh -s $(which zsh) $(whoami)
 
 
