@@ -9,7 +9,7 @@ rm install-starship.sh
 
 # configure zsh
 mkdir -p ~/.config/zsh
-cp .config/zsh/lscolours.sh ~/.config/zsh/lscolours.sh
+cp .config/zsh/lscolors.sh ~/.config/zsh/lscolors.sh
 cp .zshrc ~/.zshrc
 sudo chsh -s $(which zsh) $(whoami)
 
