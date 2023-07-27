@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # exa
 sudo apt update
 sudo apt install exa 
@@ -12,5 +14,3 @@ mkdir -p ~/.config/zsh
 cp .config/zsh/lscolors.sh ~/.config/zsh/lscolors.sh
 cp .zshrc ~/.zshrc
 sudo chsh -s $(which zsh) $(whoami)
-
-
