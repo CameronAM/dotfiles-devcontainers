@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # exa
-sudo apt update
-sudo apt install exa 
+sudo apt update -y
+sudo apt install exa -y 
 
 # starship
 curl -sS https://starship.rs/install.sh > install-starship.sh 
